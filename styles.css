@@ -7,6 +7,14 @@ body {
 
 }
 
+.underline {
+    text-decoration-line: underline;
+    /* 
+    Here the tutorial given:
+    border-bottom: 4px solid white;
+    */
+}
+
 .btn {
    padding: 6px 12px;
    background-color: white;
