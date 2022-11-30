@@ -1,10 +1,19 @@
 body {
-    color: white;
-    background-image: url("./Images/Univese\ Image.jpg");
-    background-size: cover;
+    color: rgb(91, 198, 244);
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    font-size: large;
+}
 
+#hero {
+    background-image: url("./Images/galaxy.gif");
+    background-size: cover;
+    padding: 10px 0 500px 0;
+}
+
+.title {
+    text-shadow: 0px 0px 5px violet;
 }
 
 .underline {
@@ -21,7 +30,8 @@ body {
 
 .btn {
    padding: 6px 12px;
-   background-color: white;
+   background-color: #8992C1;
    border:none;
    font-family: inherit;
+   font-weight: 800;
 }
